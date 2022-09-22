@@ -1,6 +1,6 @@
-navbar ui li a {
+.navbar ul li a {
   position: relative; }
-  navbar ui li a:after {
+  .navbar ul li a:after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -11,13 +11,13 @@ navbar ui li a {
     color: transparent;
     background: #8cdb0d;
     height: 1px; }
-  navbar ui li a:hover {
+  .navbar ul li a:hover {
     color: #1b9825; }
-  navbar ui li a:hover:after {
+  .navbar ul li a:hover:after {
     width: 90%; }
-  navbar ui li a nav ul li a,
-  navbar ui li a nav ul li a:after,
-  navbar ui li a nav ul li a:before {
+  .navbar ul li anav ul li a,
+  .navbar ul li a nav ul li a:after,
+  .navbar ul li a nav ul li a:before {
     transition: all .5s; }
 
 .container {
@@ -97,7 +97,9 @@ header {
   padding-bottom: 140px !important; }
 
 div.div2 {
-  background-image: url("../assets/fondoenredadera2.jpg"); }
+  background-image: url("../assets/fondoenredadera3.jpg");
+  background-size: cover;
+  background-position: center; }
 
 @media screen and (max-width: 992px) {
   .navbar-nav {

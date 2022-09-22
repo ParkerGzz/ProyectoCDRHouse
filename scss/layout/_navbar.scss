@@ -1,6 +1,6 @@
 @import "colors";
 
-navbar ui li a{
+.navbar ul li a{
     
     position: relative;
     &:after{   
@@ -18,17 +18,13 @@ navbar ui li a{
     &:hover{
         color:$green1;
     }
-    &:hover:after{
+    &:hover:after {
         width: 90%;
     }
-    nav ul li a,
+   &nav ul li a,
     nav ul li a:after,
     nav ul li a:before{
         transition: all .5s;
     }
-
-    
-
-    
 
 }

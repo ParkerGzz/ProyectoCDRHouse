@@ -85,8 +85,11 @@ header {
 }
 
 div{
+    
     &.div2{
-        background-image: url("../assets/fondoenredadera2.jpg");
+        background-image: url("../assets/fondoenredadera3.jpg");
+        background-size: cover;
+        background-position: center;
 
     }
 }
