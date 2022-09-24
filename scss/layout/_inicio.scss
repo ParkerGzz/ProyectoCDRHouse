@@ -33,8 +33,15 @@ header {
     text-align: center;
     transform: translateY(-50%);
     margin-left: 35%;
+    
 }
-
+.titulo {
+    color:$green1;
+    font-size: 65px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
 .btn {
     background-color: $green2;
     border-radius: 20px;
@@ -47,6 +54,7 @@ header {
 .logo{
     width: 120px;
 }
+
 #galeria .col-lg-4{
     margin: 0;
     padding: 10px;
@@ -56,6 +64,10 @@ header {
     height: 250px;
 }
 
+.row{
+    margin-left: 0%;
+    margin-right: 0%;
+}
 
 #row-frace{  
     background-image: url('../assets/buhoojos.png');
@@ -63,10 +75,8 @@ header {
     background-position: center;
     padding-top: 220px !important;
     padding-bottom: 220px !important;
-    transition: all 1s;
-    &:hover{
-        transform: scale(1.1);
-    }
+    overflow: hidden;
+    
 }
 
 
@@ -84,12 +94,3 @@ header {
     @include padinfo;
 }
 
-div{
-    
-    &.div2{
-        background-image: url("../assets/fondoenredadera2.jpg");
-        background-size: cover;
-        background-position: center;
-
-    }
-}
